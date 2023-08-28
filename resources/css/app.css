@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#search-form{
+    margin-top: 20px;
+}
+#search_btn{
+    margin-top: 25px;
+}
+#result-search,#list{
+    padding: 10px;
+}
+.text-center{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.spinner-border{
+    display: block;
+    position: fixed;
+    top: calc(50% - (58px / 2));  
+    right: calc(50% - (58px / 2));
+    color: black;
+}
+#backdrop{
+  position:absolute;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgb(98 83 83 / 50%)
+}
+.none{
+    display: none;
+}
+.bootbox-cancel{
+    background: red;
+}
+.bootbox-accept{
+    background: green;
+}
